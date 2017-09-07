@@ -94,7 +94,7 @@ You could also use an environment variable, to ease your deployments, for exampl
 module.exports.connections = {
 
   localMongoDb: {
-    adapter: 'sails-mongo',
+    adapter: 'sails-mongo-append',
     url: process.env.MONGODB_URI
   }
 };
